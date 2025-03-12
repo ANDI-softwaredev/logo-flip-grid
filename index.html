@@ -1,18 +1,211 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>logo-flip-grid</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
-    <meta property="og:image" content="/og-image.png" />
+    <title>Company Tiles Grid</title>
+    <meta name="description" content="A grid of company tiles that flip on hover" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
+    <div class="container">
+      <header>
+        <h1>Featured Companies</h1>
+        <p>Hover or click on a tile to learn more</p>
+      </header>
+
+      <div class="company-grid">
+        <!-- Apple -->
+        <div class="company-tile">
+          <div class="tile-inner">
+            <div class="tile-front">
+              <img src="/placeholder.svg" alt="Apple logo" />
+            </div>
+            <div class="tile-back">
+              <h3>Apple</h3>
+              <p>Innovative technology company known for iPhone, Mac, and other consumer electronics.</p>
+              <a href="https://apple.com" target="_blank" rel="noopener noreferrer">
+                Visit Website
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="external-link-icon">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google -->
+        <div class="company-tile">
+          <div class="tile-inner">
+            <div class="tile-front">
+              <img src="/placeholder.svg" alt="Google logo" />
+            </div>
+            <div class="tile-back">
+              <h3>Google</h3>
+              <p>Leading search engine and technology company offering various internet services.</p>
+              <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+                Visit Website
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="external-link-icon">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Microsoft -->
+        <div class="company-tile">
+          <div class="tile-inner">
+            <div class="tile-front">
+              <img src="/placeholder.svg" alt="Microsoft logo" />
+            </div>
+            <div class="tile-back">
+              <h3>Microsoft</h3>
+              <p>Global technology corporation known for Windows OS and cloud computing.</p>
+              <a href="https://microsoft.com" target="_blank" rel="noopener noreferrer">
+                Visit Website
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="external-link-icon">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Amazon -->
+        <div class="company-tile">
+          <div class="tile-inner">
+            <div class="tile-front">
+              <img src="/placeholder.svg" alt="Amazon logo" />
+            </div>
+            <div class="tile-back">
+              <h3>Amazon</h3>
+              <p>E-commerce and cloud computing leader with diverse technology offerings.</p>
+              <a href="https://amazon.com" target="_blank" rel="noopener noreferrer">
+                Visit Website
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="external-link-icon">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Meta -->
+        <div class="company-tile">
+          <div class="tile-inner">
+            <div class="tile-front">
+              <img src="/placeholder.svg" alt="Meta logo" />
+            </div>
+            <div class="tile-back">
+              <h3>Meta</h3>
+              <p>Social media and technology company focused on connecting people globally.</p>
+              <a href="https://meta.com" target="_blank" rel="noopener noreferrer">
+                Visit Website
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="external-link-icon">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tesla -->
+        <div class="company-tile">
+          <div class="tile-inner">
+            <div class="tile-front">
+              <img src="/placeholder.svg" alt="Tesla logo" />
+            </div>
+            <div class="tile-back">
+              <h3>Tesla</h3>
+              <p>Electric vehicle and clean energy company revolutionizing transportation.</p>
+              <a href="https://tesla.com" target="_blank" rel="noopener noreferrer">
+                Visit Website
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="external-link-icon">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Netflix -->
+        <div class="company-tile">
+          <div class="tile-inner">
+            <div class="tile-front">
+              <img src="/placeholder.svg" alt="Netflix logo" />
+            </div>
+            <div class="tile-back">
+              <h3>Netflix</h3>
+              <p>Leading streaming service offering original content and entertainment.</p>
+              <a href="https://netflix.com" target="_blank" rel="noopener noreferrer">
+                Visit Website
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="external-link-icon">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Adobe -->
+        <div class="company-tile">
+          <div class="tile-inner">
+            <div class="tile-front">
+              <img src="/placeholder.svg" alt="Adobe logo" />
+            </div>
+            <div class="tile-back">
+              <h3>Adobe</h3>
+              <p>Creative software company providing tools for digital content creation.</p>
+              <a href="https://adobe.com" target="_blank" rel="noopener noreferrer">
+                Visit Website
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="external-link-icon">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Intel -->
+        <div class="company-tile">
+          <div class="tile-inner">
+            <div class="tile-front">
+              <img src="/placeholder.svg" alt="Intel logo" />
+            </div>
+            <div class="tile-back">
+              <h3>Intel</h3>
+              <p>Semiconductor company pioneering computer processor technology.</p>
+              <a href="https://intel.com" target="_blank" rel="noopener noreferrer">
+                Visit Website
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="external-link-icon">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
